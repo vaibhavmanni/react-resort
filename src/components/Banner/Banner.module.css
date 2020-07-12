@@ -1,0 +1,36 @@
+.banner {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+.heading {
+  font-size: 3rem;
+  color: white;
+  letter-spacing: 0.2rem; 
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.line {
+  width: 15rem;
+  height: 2px;
+  background: white;
+  margin: 1.7rem auto;
+}
+.content {
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-weight: 300;
+}
+@media screen and (max-width: 600px){
+  .heading {
+    font-size: 2rem;
+  }
+  .content {
+    font-size: 1.2rem;
+  }
+}

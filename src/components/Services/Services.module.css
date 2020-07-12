@@ -1,0 +1,46 @@
+.container{
+    background-color: #282828;
+    min-height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    margin: 0 auto;
+    padding: 5vh 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.icons {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: white;
+}
+.card h1 {
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+@media screen and (max-width: 992px){
+    .card {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 620px){
+    .card {
+        width: 100%;
+    }
+    .icons {
+        font-size: 1.5rem;
+    }
+    .card h1 {
+        font-size: 1rem;
+
+    }
+
+}

@@ -1,0 +1,71 @@
+.filterContainer {
+    padding: 5rem 0;
+  }
+  .title {
+    color: #282828;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    text-transform: capitalize;
+  }
+  .line {
+    width: 15rem;
+    height: 2px;
+    background: #282828;
+    margin: 1.5rem auto;
+  }
+  .filterForm {
+    width: 60vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(202px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 40px;
+  }
+  .formGroup {
+    text-transform: capitalize;
+  }
+  .formGroup label {
+    display: block;
+    letter-spacing: 3px;
+    margin-bottom: 0.5rem;
+  }
+  .formControl {
+    width: 100%;
+    background: transparent;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+  }
+  .slider {
+     color: #000;
+  }
+  .sizeInputs {
+    display: flex;
+  }
+  .sizeInput {
+    width: 40%;
+    padding: 0.2rem;
+    border: 1px solid #333;
+    border-radius: 0.3rem;
+    margin-right: 0.3rem;
+  }
+  .singleExtra label {
+    display: inline-block;
+    font-size: 1rem;
+    /* margin-left: 0.5rem; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1rem;
+  }
+  @media screen and (min-width: 776px) {
+    .filterForm {
+      width: 70vw;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .filterForm {
+      width: 95vw;
+      max-width: 1170px;
+    }
+  }
